@@ -1,1 +1,21 @@
+body {
+    background: #131B23;
+}
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.headerWrapper {
+    flex: 0.2;
+}
+
+.contentWrapper {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  1% 10% 5% 10%;
+}

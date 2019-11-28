@@ -3,47 +3,34 @@ import './header.css';
 import Button from '../components/Button';
 
 class Header extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            selectedId: 0
-        }
-    }
-
-    setSelected = (id) => {
-        this.setState({
-            selectedId: id
-        });
-    }
-
     render() {
         return (
-            <div class='header'>
-                <div class='title'>The Conquer of Visulon</div>
-                <div class='links'>
+            <div className='header'>
+                <div className='headerTitle'>THE CONQUER OF VISULON</div>
+                <div className='headerLinks'>
                     <Button
                         text={'The Game'}
                         itemId={0}
-                        selectedId={this.state.selectedId}
-                        setSelected={this.setSelected}
+                        selectedId={this.props.selectedId}
+                        setSelected={this.props.setSelected}
                     />
                     <Button
                         text={'Project'}
                         itemId={1}
-                        selectedId={this.state.selectedId}
-                        setSelected={this.setSelected}
+                        selectedId={this.props.selectedId}
+                        setSelected={this.props.setSelected}
                     />
                     <Button
                         text={'About Us'}
                         itemId={2}
-                        selectedId={this.state.selectedId}
-                        setSelected={this.setSelected}
+                        selectedId={this.props.selectedId}
+                        setSelected={this.props.setSelected}
                     />
                     <Button
                         text={'Contact'}
                         itemId={3}
-                        selectedId={this.state.selectedId}
-                        setSelected={this.setSelected}
+                        selectedId={this.props.selectedId}
+                        setSelected={this.props.setSelected}
                     />
                 </div>
             </div >

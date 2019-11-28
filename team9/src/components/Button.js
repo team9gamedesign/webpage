@@ -4,7 +4,7 @@ import './button.css';
 class Button extends Component {
 
     itemIsSelected = () => {
-        return this.props.itemId == this.props.selectedId;
+        return this.props.itemId === this.props.selectedId;
     }
 
     handleClick = () => {
@@ -14,7 +14,7 @@ class Button extends Component {
     render() {
         return (
             <div
-                class={'button ' + (this.itemIsSelected() ? 'active' : '')}
+                className={'button ' + (this.itemIsSelected() ? 'active' : '')}
                 onClick={this.handleClick}
             >
                 {this.props.text.toUpperCase()}

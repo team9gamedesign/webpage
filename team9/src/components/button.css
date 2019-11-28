@@ -1,14 +1,14 @@
 .button {
     padding: 15px 25px;
-    color: #fff;
+    color: #E9F1F7;
     border-radius: 5px;
     margin: 5px;
 }
 
 .active {
-    background: #7ec0ee;
+    background: #2274A5;
 }
 
 .button:hover {
-    background: #7ec0ee;
+    background: #2274A5;
 }

@@ -9,7 +9,9 @@ class Card extends Component {
                 <div className='cardTitle'>
                     {this.props.title.toUpperCase()}
                 </div>
-                {this.props.children}
+                <div className='cardContent'>
+                    {this.props.children}
+                </div>
             </div>
         );
     }

@@ -1,0 +1,24 @@
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #003b59;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #7ec0ee;
+}
+
+.title {
+    color: #fff;
+    font-size: 45px;
+    padding: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 25px;
+}

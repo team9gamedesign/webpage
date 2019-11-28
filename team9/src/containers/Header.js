@@ -26,12 +26,6 @@ class Header extends Component {
                         selectedId={this.props.selectedId}
                         setSelected={this.props.setSelected}
                     />
-                    <Button
-                        text={'Contact'}
-                        itemId={3}
-                        selectedId={this.props.selectedId}
-                        setSelected={this.props.setSelected}
-                    />
                 </div>
             </div >
         );

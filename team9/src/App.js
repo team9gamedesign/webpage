@@ -4,7 +4,6 @@ import Header from './containers/Header';
 import Game from './containers/Game';
 import Project from './containers/Project';
 import AboutUs from './containers/AboutUs';
-import Contact from './containers/Contact';
 
 class App extends React.Component {
     constructor(props) {
@@ -35,9 +34,6 @@ class App extends React.Component {
                     }
                     {this.state.selectedId === 2 &&
                         <AboutUs />
-                    }
-                    {this.state.selectedId === 3 &&
-                        <Contact />
                     }
                 </div>
             </div>

@@ -1,5 +1,10 @@
 body {
     background: #131B23;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .wrapper {
@@ -7,6 +12,8 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+
+
 
 .headerWrapper {
     flex: 0.2;

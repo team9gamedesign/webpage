@@ -16,7 +16,7 @@ class AboutUs extends Component {
                     <div className='aboutUsPerson'>
                         <img className='aboutUsImage' src={fredrik} alt='' />
                         <div className='aboutUsName'>{'FREDRIK OMSTEDT'}</div>
-                        <div className='aboutUsText'>I am studying my final year of the Computer Science Master's programme at KTH. When I'm not playing games, I like to play golf and the guitar. In this project, my focus has been on designing and implementing the classes.</div>
+                        <div className='aboutUsText'>I am studying my final year of the Computer Science Master's programme at KTH. In this project, my focus has been on designing and implementing the classes. I have also been responsible for maintaining our GitHub, and I have written a lot in the GDD.</div>
                     </div>
                     <div className='aboutUsPerson'>
                         <img className='aboutUsImage' src={fredrik} alt='' />

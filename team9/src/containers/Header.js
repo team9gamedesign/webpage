@@ -15,7 +15,7 @@ class Header extends Component {
                         setSelected={this.props.setSelected}
                     />
                     <Button
-                        text={'Project'}
+                        text={'The Project'}
                         itemId={1}
                         selectedId={this.props.selectedId}
                         setSelected={this.props.setSelected}

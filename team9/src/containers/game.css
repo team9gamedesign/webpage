@@ -1,0 +1,41 @@
+.gameContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.gameVideoWrapper {
+    flex: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+.gameVideo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.gameTextWrapper {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.gameTextTitle {
+    font-family: Spaceship;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.gameText {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 16px;
+}

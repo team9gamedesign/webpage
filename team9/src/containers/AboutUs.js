@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './aboutus.css';
 import Card from '../components/Card';
+import chantal from '../images/chantal.jpg';
 import fredrik from '../images/fredrik.jpeg';
 
 class AboutUs extends Component {
@@ -9,9 +10,9 @@ class AboutUs extends Component {
             <Card title='About us'>
                 <div className='aboutUsContent'>
                     <div className='aboutUsPerson'>
-                        <img className='aboutUsImage' src={fredrik} alt='' />
+                        <img className='aboutUsImage' src={chantal} alt='' />
                         <div className='aboutUsName'>{'CHANTAL HUNDSCHEID'}</div>
-                        <div className='aboutUsText'></div>
+                        <div className='aboutUsText'>I am a second-year Master student of Human Technology Interaction at the Technical University of Eindhoven, in the Netherlands. Currently, I am studying abroad at KTH. My focus was on designing the different User Interface elements, as well as writing the GDD and managing the project.</div>
                     </div>
                     <div className='aboutUsPerson'>
                         <img className='aboutUsImage' src={fredrik} alt='' />

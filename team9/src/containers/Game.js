@@ -27,7 +27,7 @@ class Game extends Component {
                             <b>The Conquer of Visulon</b> is a 3D class based Hack 'n Slash game. Take control of one of several classes, such as the <b>Gun Mage</b>, in your quest to conquer the galaxy for its resources. Level up your character in order to gain new, powerful abilities and combine these abilities with items found on your travels to wreak havoc in the ranks of the enemies. Utilize the resources stolen from the planets you visit by expanding and improving <b>The City in Space</b>, giving you access to mighty items and augmentations!
                         </div>
                         <div className='gameText'>
-                            <b>The Conquer of Visulon</b> releases on <i>Steam</i> for <i>Windows</i> and <i>OS X</i> the <b>Xth of Ytember 202Z</b>.
+                            <b>The Conquer of Visulon</b> releases on <i>Steam</i> for <i>Windows</i>, Linux and <i>OS X</i> the <b>First of December 2020</b>.
                         </div>
                     </div>
                 </div>

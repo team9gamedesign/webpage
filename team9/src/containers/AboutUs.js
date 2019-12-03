@@ -3,6 +3,7 @@ import './aboutus.css';
 import Card from '../components/Card';
 import chantal from '../images/chantal.jpg';
 import fredrik from '../images/fredrik.jpeg';
+import markus from '../images/markus.jpg';
 
 class AboutUs extends Component {
     render() {
@@ -25,9 +26,9 @@ class AboutUs extends Component {
                         <div className='aboutUsText'></div>
                     </div>
                     <div className='aboutUsPerson'>
-                        <img className='aboutUsImage' src={fredrik} alt='' />
+                        <img className='aboutUsImage' src={markus} alt='' />
                         <div className='aboutUsName'>{'MARKUS WINROTH'}</div>
-                        <div className='aboutUsText'></div>
+                        <div className='aboutUsText'>I am doing my last year at the Machine Learning Master at KTH. I like to combine my knowledge about AI with my love for games. My contribution to this game has been the enemy design and implementation, as well as writing the GDD.</div>
                     </div>
                 </div>
             </Card>

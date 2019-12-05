@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import chantal from '../images/chantal.jpg';
 import fredrik from '../images/fredrik.jpeg';
 import markus from '../images/markus.jpg';
+import marcus from '../images/marcus.png';
 
 class AboutUs extends Component {
     render() {
@@ -21,9 +22,9 @@ class AboutUs extends Component {
                         <div className='aboutUsText'>I am studying my final year of the Computer Science Master's programme at KTH. In this project, my focus has been on designing and implementing the classes. I have also been responsible for maintaining our GitHub, and I have written a lot in the GDD.</div>
                     </div>
                     <div className='aboutUsPerson'>
-                        <img className='aboutUsImage' src={fredrik} alt='' />
+                        <img className='aboutUsImage' src={marcus} alt='' />
                         <div className='aboutUsName'>{'MARCUS WERLINDER'}</div>
-                        <div className='aboutUsText'></div>
+                        <div className='aboutUsText'>I am a KTH student doing my last year in my Computer Science Master’s programme. For this project my focus has been finding assets, creating scenes, designing the different scenes for the first level as well as creating an overview selection scene. I have also written a smaller part of the GDD.</div>
                     </div>
                     <div className='aboutUsPerson'>
                         <img className='aboutUsImage' src={markus} alt='' />

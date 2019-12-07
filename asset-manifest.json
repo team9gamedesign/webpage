@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/webpage/static/css/main.31a652bd.chunk.css",
+    "main.js": "/webpage/static/js/main.644a4136.chunk.js",
+    "main.js.map": "/webpage/static/js/main.644a4136.chunk.js.map",
+    "runtime-main.js": "/webpage/static/js/runtime-main.7a167929.js",
+    "runtime-main.js.map": "/webpage/static/js/runtime-main.7a167929.js.map",
+    "static/js/2.cc598a76.chunk.js": "/webpage/static/js/2.cc598a76.chunk.js",
+    "static/js/2.cc598a76.chunk.js.map": "/webpage/static/js/2.cc598a76.chunk.js.map",
+    "index.html": "/webpage/index.html",
+    "precache-manifest.455a40511e338009f15fc79c4c4c5fe8.js": "/webpage/precache-manifest.455a40511e338009f15fc79c4c4c5fe8.js",
+    "service-worker.js": "/webpage/service-worker.js",
+    "static/css/main.31a652bd.chunk.css.map": "/webpage/static/css/main.31a652bd.chunk.css.map",
+    "static/media/App.css": "/webpage/static/media/background.e96e7fac.jpg",
+    "static/media/chantal.jpg": "/webpage/static/media/chantal.bd03c5be.jpg",
+    "static/media/fredrik.jpeg": "/webpage/static/media/fredrik.b8160576.jpeg",
+    "static/media/marcus.png": "/webpage/static/media/marcus.e7ef1e1c.png",
+    "static/media/markus.jpg": "/webpage/static/media/markus.af5b5858.jpg",
+    "static/media/project.jpg": "/webpage/static/media/project.101e8173.jpg",
+    "static/media/index.css": "/webpage/static/media/spaceship.2b896f0d.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a167929.js",
+    "static/js/2.cc598a76.chunk.js",
+    "static/css/main.31a652bd.chunk.css",
+    "static/js/main.644a4136.chunk.js"
+  ]
+}

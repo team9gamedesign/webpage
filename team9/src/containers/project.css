@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1000px) {
+    .projectContent {
+        flex-direction: column !important;
+    }
+}
+
 .projectContent {
     display: flex;
     width: 100%;

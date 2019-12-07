@@ -11,7 +11,7 @@ class Game extends Component {
                     <div className='gameVideoWrapper'>
                         <iframe
                             className='gameVideo'
-                            src='https://www.youtube.com/embed/rYzcywiFkC0'
+                            src='https://www.youtube.com/embed/1sPfrghKjT0'
                             frameBorder='0'
                             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                             allowFullScreen
